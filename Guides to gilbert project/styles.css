@@ -1,0 +1,121 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    text-align: center;
+    margin: 0px;
+}
+
+.hero {
+    height: 130px;
+    background-image: url(/images/gilbert-hero.jpg);
+    background-size: cover;
+    padding: 100px;
+}
+
+#hero-title {
+    color: #F1FAEE;
+    background-color: #457B9D;
+    display: inline-block;
+    padding: 5px 13px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#hero-desc {
+    font-size: 20px;
+    color: #F1FAEE;
+    background-color: #1D3557;
+    display: inline-block;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.activities {
+    margin: 0;
+    background-color: #F1FAEE;
+    padding: 20px 30px;
+}
+
+.activities-columns {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.activity-title {
+    padding: 5px 0;
+    font-weight: bold;
+    color: #1D3557
+}
+
+.activity-desc {
+    color: #1D3557
+}
+
+.houses {
+    padding: 0 19px;
+}
+
+.nightlife {
+    padding: 0 19px;
+}
+
+.outdoors {
+    padding: 0 19px;
+}
+
+.activities img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+
+.guide {
+    box-shadow: 0px 5px #1D3557;
+    border-radius: 10px;
+    background-color: #A8DADC;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 30px auto;
+    padding: 20px 20px;
+    
+}
+
+.guide img{
+    width: 100px;
+    height: 150px;
+    padding: 10px;
+}
+
+.guide-info {
+    width: 300px;
+}
+
+#guides-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1D3557
+}
+
+#guides-desc {
+    font-style: italic;
+    color: #1D3557
+}
+
+#guides-names {
+    font-weight: bold;
+    color: #1D3557
+}
